@@ -1,0 +1,142 @@
+/* CSS Unificado - Todas as páginas do site */
+
+/* Estilos globais */
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
+
+/* Navegação */
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Classes de layout */
+.centro {
+    text-align: center;
+}
+
+.coisa {
+    padding: 0px 70px;
+}
+
+.estrutura {
+    padding: 0px 70px;
+}
+
+.bixo {
+    padding: 0px 70px;
+}
+
+/* Estilos específicos da página index */
+.centro img {
+    width: 200px;
+    height: 50px;
+    border-radius: 85px;
+    border: 4px solid rgb(10, 237, 245);
+}
+
+
+
+/* Estilos específicos da página contato */
+.centro img.contato-img {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: none;
+}
+
+fieldset {
+    border-radius: 30px;
+}
+
+/* Estilos específicos da página projetos */
+.projetos-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+.p2 {
+    text-align: center;
+}
+
+/* Estilos específicos da página sobre mim */
+.f {
+    text-align: center;
+}
+
+.f img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    border: 5px solid rgb(10, 237, 245);
+}
+
+em {
+    font-style: italic;
+}
+
+.tamanho1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+/* Footer específico da página sobre mim */
+.footer-sobremim {
+    background-color: #3c3c3c;
+    padding: 1px;
+    box-shadow: inset 0 10px 15px rgba(0, 0, 0, 0.8);
+}
+
+/* Imagens gerais */
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+
+/* Estilo para texto justificado */
+.justified-text {
+    text-align: justify;
+}
+
